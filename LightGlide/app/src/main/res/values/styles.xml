@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="themeColorFAB" format="reference" />
+    <attr name="themeColorHighlight" format="reference" />
+    <attr name="themeColorError" format="reference"/>
+    <attr name="themeColorAccent" format="reference" />
+    <attr name="themeColorForeground" format="reference" />
+    <attr name="themeColorBackground" format="reference" />
+    <attr name="themeColorPrimary" format="reference" />
+    <attr name="themeColorPrimaryDark" format="reference" />
+
+    <!-- Base application theme. -->
+    <style name="HighContrastLightOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorAccent">@color/colorRallyOrange</item>
+        <item name="colorAccent">@color/colorRallyOrange</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="android:colorSecondary">@color/deepOrange</item>
+
+        <item name="themeColorHighlight">@color/pink</item>
+        <item name="themeColorFAB">@color/river</item>
+        <item name="themeColorError">@color/alizarin</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+    <style name="HighContrastDarkOrange" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorAccent">@color/colorRallyOrange</item>
+        <item name="colorAccent">@color/colorRallyOrange</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="android:colorSecondary">@color/deepOrange</item>
+
+        <item name="themeColorHighlight">@color/pink</item>
+        <item name="themeColorFAB">@color/river</item>
+        <item name="themeColorError">@color/alizarin</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="HighContrastDarkPurple" parent="HighContrastDarkOrange">
+        <item name="colorPrimary">@color/amethyst</item>
+        <item name="android:colorSecondary">@color/plum</item>
+        <item name="android:colorAccent">@color/colorRallyPurple</item>
+        <item name="colorAccent">@color/colorRallyPurple</item>
+    </style>
+
+    <style name="HighContrastLightPurple" parent="HighContrastLightOrange">
+        <item name="colorPrimary">@color/amethyst</item>
+        <item name="android:colorSecondary">@color/plum</item>
+        <item name="android:colorAccent">@color/colorRallyPurple</item>
+        <item name="colorAccent">@color/colorRallyPurple</item>
+    </style>
+
+    <style name="HighContrastDarkGreen" parent="HighContrastDarkOrange">
+        <item name="colorPrimary">@color/emerald</item>
+        <item name="android:colorSecondary">@color/nephritis</item>
+        <item name="android:colorAccent">@color/colorRallyGreen</item>
+        <item name="colorAccent">@color/colorRallyGreen</item>
+    </style>
+
+    <style name="HighContrastLightGreen" parent="HighContrastLightOrange">
+        <item name="colorPrimary">@color/turqoise</item>
+        <item name="android:colorSecondary">@color/greenSea</item>
+        <item name="android:colorAccent">@color/colorRallyGreen</item>
+        <item name="colorAccent">@color/colorRallyGreen</item>
+
+    </style>
+
+    <style name="PopWindowTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+</resources>

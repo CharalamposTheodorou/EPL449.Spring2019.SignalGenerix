@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ThemeName">
+        <item>High Contrast Orange Light</item>
+        <item>High Contrast Orange Dark</item>
+        <item>High Contrast Purple Light</item>
+        <item>High Contrast Purple Dark</item>
+        <item>High Contrast Green Light</item>
+        <item>High Contrast Green Dark</item>
+    </string-array>
+    <string-array name="ThemeValue">
+        <item>HighContrastLightOrange</item>
+        <item>HighContrastDarkOrange</item>
+        <item>HighContrastLightPurple</item>
+        <item>HighContrastDarkPurple</item>
+        <item>HighContrastLightGreen</item>
+        <item>HighContrastDarkGreen</item>
+    </string-array>
+    <string-array name="systemValue">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="systemName">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+</resources>
